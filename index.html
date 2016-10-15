@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wikipedia Viewer</title>
+	<link href="http://fonts.googleapis.com/css?family=Lato:100,200,300" rel="stylesheet">
+	<link href="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<script src="https://use.fontawesome.com/d3ca26439a.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="header-container">
+			<div class="random-search-container">
+				<a href="https://en.wikipedia.org/wiki/Special:Random"><i class="fa fa-random" aria-hidden="true"></i></a>
+			</div>
+
+			<div class="search-container">
+				<form id="search-form" action="">
+	  				<input id="search" name="search" type="text" placeholder="search">
+	  				<input id="search_submit" value="" type="submit">
+	  			</form>
+			</div>
+		</div>
+
+		<ul class="results-container">
+		</ul>
+	</div>
+</body>
